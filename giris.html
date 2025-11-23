@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Sayfası</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(to bottom right, #4d79ff, #33ccff);
+            color: white;
+        }
+
+        /* Header */
+        header {
+            padding: 20px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            background: rgba(0,0,0,0.2);
+            letter-spacing: 2px;
+        }
+
+        /* Ana içerik */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .intro-text {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        /* Kartlar */
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            color: #333;
+            width: 260px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
+            transition: transform .3s, box-shadow .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+        }
+
+        .card img {
+            width: 80px;
+            margin-bottom: 15px;
+        }
+
+        /* Buton */
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            background: #ffcc00;
+            color: #333;
+            font-size: 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background .3s;
+        }
+
+        .btn:hover {
+            background: #ffdb4d;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            padding: 15px;
+            text-align: center;
+            font-size: 15px;
+            background: rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+<header>✨ Modern Öğrenci Web Sayfası ✨</header>
+
+<div class="container">
+
+    <p class="intro-text">
+        Bu sayfa, HTML & CSS kullanılarak hazırlanmış modern bir başlangıç projesidir.
+        Kart tasarımları, animasyonlar ve responsive yapı örnek olarak eklenmiştir.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+            <h3>HTML Öğren</h3>
+            <p>Web yapısının temelini oluşturan HTML ile içerik oluşturmayı öğren.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">
+            <h3>CSS Tasarım</h3>
+            <p>Sayfalara renk, stil ve animasyon ekleyerek görsel şıklık kazandır.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">
+            <h3>JavaScript</h3>
+            <p>Etkileşim ve dinamik özellikler ile sayfanı bir uygulamaya çevir.</p>
+        </div>
+
+    </div>
+
+    <a class="btn" href="#">Başlamak İçin Tıkla</a>
+
+</div>
+
+<footer>© 2025 — Tüm Hakları Saklıdır</footer>
+
+</body>
+</html>
